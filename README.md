@@ -7,7 +7,7 @@
 </p>
 
 <p>
-Building scalable web applications, reliable backend systems,<br/>
+Building scalable web applications, reliable backend systems<br/>
 and cloud-native infrastructure with clean architecture.
 </p>
 
