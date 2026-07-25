@@ -8,7 +8,7 @@
 
 <p>
 Building scalable web applications, reliable backend systems<br/>
-and cloud-native infrastructure with clean architecture.
+and cloud-native infrastructure with clean architecture
 </p>
 
 <p>
@@ -26,7 +26,7 @@ and cloud-native infrastructure with clean architecture.
 
 ## About Me
 
-Backend-oriented Full-Stack Developer focused on building reliable, maintainable, and scalable software products.
+Backend-oriented Full-Stack Developer focused on building reliable, maintainable, and scalable software products
 
 <table>
 <tr>
@@ -41,7 +41,7 @@ Backend-oriented Full-Stack Developer focused on building reliable, maintainable
 
 <br/>
 
-Modern interfaces, dashboards, and workflow-driven applications.
+Modern interfaces, dashboards, and workflow-driven applications
 
 </td>
 
@@ -55,7 +55,7 @@ Modern interfaces, dashboards, and workflow-driven applications.
 
 <br/>
 
-APIs, authentication, background jobs real-time services, and business logic.
+APIs, authentication, background jobs real-time services, and business logic
 
 </td>
 
@@ -69,7 +69,7 @@ APIs, authentication, background jobs real-time services, and business logic.
 
 <br/>
 
-Containerized environments, automation and scalable infrastructure.
+Containerized environments automation and scalable infrastructure
 
 </td>
 
@@ -400,6 +400,6 @@ Updated 25/07/2026 15:41 &nbsp;&nbsp; Generated with <code>cloc</code> &nbsp;&nb
 
 ## Current Focus
 
-Building private full-stack platforms, backend services, authentication systems, and cloud-native deployment workflows.
+Building private full-stack platforms, backend services, authentication systems, and cloud-native deployment workflows
 
 `API Architecture` &nbsp;&nbsp; `Authentication` &nbsp;&nbsp; `Database Design` &nbsp;&nbsp; `Background Services` &nbsp;&nbsp; `CI/CD` &nbsp;&nbsp; `Performance`
