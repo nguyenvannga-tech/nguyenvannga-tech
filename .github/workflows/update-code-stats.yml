@@ -1,0 +1,123 @@
+name: Update code statistics
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 08:00 every day in Vietnam (01:00 UTC)
+    - cron: "0 1 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-code-statistics
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      # GITHUB_TOKEN counts public repositories.
+      # Add a repository secret named PROFILE_STATS_TOKEN to include
+      # private repositories that the token is allowed to read.
+      GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || github.token }}
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install code counter
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cloc jq
+
+      - name: Clone source repositories
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          rm -rf .code-repositories
+          mkdir -p .code-repositories
+
+          gh repo list "$GITHUB_REPOSITORY_OWNER" \
+            --limit 1000 \
+            --json nameWithOwner,isFork,isArchived \
+            --jq '.[] | select(.isFork == false and .isArchived == false) | .nameWithOwner' \
+            > repositories.txt
+
+          repository_count=0
+
+          while IFS= read -r repository; do
+            [ -z "$repository" ] && continue
+
+            # Do not count the profile README repository itself.
+            if [ "$repository" = "$GITHUB_REPOSITORY" ]; then
+              continue
+            fi
+
+            directory=".code-repositories/${repository#*/}"
+
+            if gh repo clone "$repository" "$directory" -- --depth=1; then
+              repository_count=$((repository_count + 1))
+            else
+              echo "::warning::Could not clone $repository"
+            fi
+          done < repositories.txt
+
+          echo "REPOSITORY_COUNT=$repository_count" >> "$GITHUB_ENV"
+
+      - name: Count source-code lines
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ "${REPOSITORY_COUNT:-0}" -eq 0 ]; then
+            cat > code-stats.json <<'JSON'
+          {
+            "header": {
+              "n_files": 0
+            },
+            "SUM": {
+              "blank": 0,
+              "comment": 0,
+              "code": 0
+            }
+          }
+          JSON
+          else
+            cloc .code-repositories \
+              --json \
+              --out=code-stats.json \
+              --exclude-dir=.git,node_modules,vendor,dist,build,.next,target,coverage,.venv,venv,__pycache__ \
+              --exclude-lang=Markdown,JSON,YAML,XML,TOML
+          fi
+
+      - name: Update README
+        env:
+          PROFILE_TIMEZONE: Asia/Ho_Chi_Minh
+        run: |
+          python scripts/update_code_stats.py \
+            --input code-stats.json \
+            --readme README.md \
+            --repository-count "${REPOSITORY_COUNT:-0}"
+
+      - name: Commit updated statistics
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet README.md; then
+            echo "README statistics are already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+          git commit -m "chore: update code statistics"
+          git push
