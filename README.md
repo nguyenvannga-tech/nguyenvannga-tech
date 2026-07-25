@@ -55,7 +55,7 @@ Modern interfaces, dashboards, and workflow-driven applications.
 
 <br/>
 
-APIs, authentication, background jobs, real-time services, and business logic.
+APIs, authentication, background jobs real-time services, and business logic.
 
 </td>
 
