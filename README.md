@@ -69,7 +69,7 @@ APIs, authentication, background jobs, real-time services, and business logic.
 
 <br/>
 
-Containerized environments, automation, and scalable infrastructure.
+Containerized environments, automation and scalable infrastructure.
 
 </td>
 
@@ -237,7 +237,7 @@ Monitoring and reliability
 <td width="33%" align="center" valign="top">
 <strong>Data &amp; Infrastructure</strong>
 <br/>
-<sub><code>backend/prisma · deploy · observability</code></sub>
+<sub><code>backend/prisma  deploy  observability</code></sub>
 <br/><br/>
 <strong>5,727</strong><br/>
 <sub>Code lines</sub>
