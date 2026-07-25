@@ -24,8 +24,6 @@ and cloud-native infrastructure with clean architecture
 
 ---
 
-## About Me
-
 Backend-oriented Full-Stack Developer focused on building reliable, maintainable, and scalable software products
 
 <table>
@@ -77,8 +75,6 @@ Containerized environments automation and scalable infrastructure
 </table>
 
 ---
-
-## Technology Stack
 
 <table>
 <tr>
@@ -146,8 +142,6 @@ Containerized environments automation and scalable infrastructure
 
 ---
 
-## Engineering Focus
-
 <div align="center">
 
 <table>
@@ -185,8 +179,6 @@ Monitoring and reliability
 </div>
 
 ---
-
-## Code Intelligence
 
 <!-- CODE_STATS_START -->
 
@@ -326,8 +318,6 @@ Updated 25/07/2026 15:41 &nbsp;&nbsp; Generated with <code>cloc</code> &nbsp;&nb
 
 ---
 
-## System Architecture
-
 <div align="center">
 
 <table>
@@ -392,13 +382,10 @@ Updated 25/07/2026 15:41 &nbsp;&nbsp; Generated with <code>cloc</code> &nbsp;&nb
 
 ---
 
-## Development Principles
 
 `Clean Code` &nbsp;&nbsp; `Reliable Systems` &nbsp;&nbsp; `Scalable Architecture` &nbsp;&nbsp; `Automation` &nbsp;&nbsp; `Practical Delivery`
 
 ---
-
-## Current Focus
 
 Building private full-stack platforms, backend services, authentication systems, and cloud-native deployment workflows
 
