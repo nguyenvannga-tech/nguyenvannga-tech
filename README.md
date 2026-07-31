@@ -186,9 +186,9 @@ Monitoring and reliability
 
 <table>
 <tr>
-<td align="center" width="20%"><strong>112,507</strong><br/><sub>Code lines</sub></td>
-<td align="center" width="20%"><strong>3,456</strong><br/><sub>Comments</sub></td>
-<td align="center" width="20%"><strong>664</strong><br/><sub>Source files</sub></td>
+<td align="center" width="20%"><strong>119,967</strong><br/><sub>Code lines</sub></td>
+<td align="center" width="20%"><strong>3,621</strong><br/><sub>Comments</sub></td>
+<td align="center" width="20%"><strong>695</strong><br/><sub>Source files</sub></td>
 <td align="center" width="20%"><strong>1</strong><br/><sub>Repository</sub></td>
 <td align="center" width="20%"><strong>11</strong><br/><sub>Languages</sub></td>
 </tr>
@@ -203,13 +203,13 @@ Monitoring and reliability
 <br/>
 <sub><code>app/</code></sub>
 <br/><br/>
-<strong>53,331</strong><br/>
+<strong>55,523</strong><br/>
 <sub>Code lines</sub>
 <br/>
-<strong>281</strong><br/>
+<strong>285</strong><br/>
 <sub>Source files</sub>
 <br/>
-<strong>47.4%</strong><br/>
+<strong>46.3%</strong><br/>
 <sub>Share of total</sub>
 </td>
 <td width="33%" align="center" valign="top">
@@ -217,13 +217,13 @@ Monitoring and reliability
 <br/>
 <sub><code>backend/</code></sub>
 <br/><br/>
-<strong>53,344</strong><br/>
+<strong>58,124</strong><br/>
 <sub>Code lines</sub>
 <br/>
-<strong>289</strong><br/>
+<strong>311</strong><br/>
 <sub>Source files</sub>
 <br/>
-<strong>47.4%</strong><br/>
+<strong>48.4%</strong><br/>
 <sub>Share of total</sub>
 </td>
 <td width="33%" align="center" valign="top">
@@ -231,13 +231,13 @@ Monitoring and reliability
 <br/>
 <sub><code>backend/prisma · deploy · observability</code></sub>
 <br/><br/>
-<strong>5,832</strong><br/>
+<strong>6,320</strong><br/>
 <sub>Code lines</sub>
 <br/>
-<strong>94</strong><br/>
+<strong>99</strong><br/>
 <sub>Source files</sub>
 <br/>
-<strong>5.2%</strong><br/>
+<strong>5.3%</strong><br/>
 <sub>Share of total</sub>
 </td>
 </tr>
@@ -248,28 +248,28 @@ Monitoring and reliability
 <table>
 <tr>
 <td width="130" align="left"><strong>TypeScript</strong></td>
-<td align="left">██████████████████████░░░░░░░░░░░░░░</td>
-<td width="60" align="right"><strong>60.3%</strong></td>
+<td align="left">█████████████████████░░░░░░░░░░░░░░░</td>
+<td width="60" align="right"><strong>58.7%</strong></td>
 </tr>
 <tr>
 <td width="130" align="left"><strong>Rust</strong></td>
 <td align="left">██████████░░░░░░░░░░░░░░░░░░░░░░░░░░</td>
-<td width="60" align="right"><strong>28.0%</strong></td>
+<td width="60" align="right"><strong>29.0%</strong></td>
 </tr>
 <tr>
 <td width="130" align="left"><strong>Python</strong></td>
 <td align="left">█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</td>
-<td width="60" align="right"><strong>2.5%</strong></td>
+<td width="60" align="right"><strong>2.9%</strong></td>
 </tr>
 <tr>
 <td width="130" align="left"><strong>JavaScript</strong></td>
 <td align="left">█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</td>
-<td width="60" align="right"><strong>2.5%</strong></td>
+<td width="60" align="right"><strong>2.6%</strong></td>
 </tr>
 <tr>
 <td width="130" align="left"><strong>SQL</strong></td>
 <td align="left">█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</td>
-<td width="60" align="right"><strong>2.3%</strong></td>
+<td width="60" align="right"><strong>2.4%</strong></td>
 </tr>
 </table>
 
@@ -290,16 +290,16 @@ Monitoring and reliability
 </tr>
 </thead>
 <tbody>
-<tr><td align="left">TypeScript</td><td align="right">445</td><td align="right">67,845</td><td align="right">60.3%</td></tr>
-<tr><td align="left">Rust</td><td align="right">47</td><td align="right">31,483</td><td align="right">28.0%</td></tr>
-<tr><td align="left">Python</td><td align="right">25</td><td align="right">2,805</td><td align="right">2.5%</td></tr>
-<tr><td align="left">JavaScript</td><td align="right">34</td><td align="right">2,770</td><td align="right">2.5%</td></tr>
-<tr><td align="left">SQL</td><td align="right">69</td><td align="right">2,554</td><td align="right">2.3%</td></tr>
-<tr><td align="left">Prisma Schema</td><td align="right">13</td><td align="right">1,826</td><td align="right">1.6%</td></tr>
-<tr><td align="left">HCL</td><td align="right">9</td><td align="right">1,381</td><td align="right">1.2%</td></tr>
-<tr><td align="left">Protocol Buffers</td><td align="right">11</td><td align="right">1,213</td><td align="right">1.1%</td></tr>
-<tr><td align="left">Bourne Shell</td><td align="right">4</td><td align="right">407</td><td align="right">0.4%</td></tr>
-<tr><td align="left">Dockerfile</td><td align="right">6</td><td align="right">170</td><td align="right">0.2%</td></tr>
+<tr><td align="left">TypeScript</td><td align="right">451</td><td align="right">70,439</td><td align="right">58.7%</td></tr>
+<tr><td align="left">Rust</td><td align="right">57</td><td align="right">34,797</td><td align="right">29.0%</td></tr>
+<tr><td align="left">Python</td><td align="right">29</td><td align="right">3,426</td><td align="right">2.9%</td></tr>
+<tr><td align="left">JavaScript</td><td align="right">38</td><td align="right">3,128</td><td align="right">2.6%</td></tr>
+<tr><td align="left">SQL</td><td align="right">74</td><td align="right">2,881</td><td align="right">2.4%</td></tr>
+<tr><td align="left">Prisma Schema</td><td align="right">13</td><td align="right">1,983</td><td align="right">1.7%</td></tr>
+<tr><td align="left">HCL</td><td align="right">9</td><td align="right">1,385</td><td align="right">1.2%</td></tr>
+<tr><td align="left">Protocol Buffers</td><td align="right">11</td><td align="right">1,214</td><td align="right">1.0%</td></tr>
+<tr><td align="left">Bourne Shell</td><td align="right">6</td><td align="right">491</td><td align="right">0.4%</td></tr>
+<tr><td align="left">Dockerfile</td><td align="right">6</td><td align="right">170</td><td align="right">0.1%</td></tr>
 <tr><td align="left">CSS</td><td align="right">1</td><td align="right">53</td><td align="right">0.0%</td></tr>
 </tbody>
 </table>
@@ -309,7 +309,7 @@ Monitoring and reliability
 <div align="center">
 
 <sub>
-Updated 30/07/2026 13:21 &nbsp;&nbsp; Generated with <code>cloc</code> &nbsp;&nbsp; Authored source only
+Updated 01/08/2026 05:15 &nbsp;&nbsp; Generated with <code>cloc</code> &nbsp;&nbsp; Authored source only
 </sub>
 
 </div>
