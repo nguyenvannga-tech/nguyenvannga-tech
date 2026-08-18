@@ -186,11 +186,11 @@ Monitoring and reliability
 
 <table>
 <tr>
-<td align="center" width="20%"><strong>147,615</strong><br/><sub>Code lines</sub></td>
-<td align="center" width="20%"><strong>4,853</strong><br/><sub>Comments</sub></td>
-<td align="center" width="20%"><strong>862</strong><br/><sub>Source files</sub></td>
+<td align="center" width="20%"><strong>169,173</strong><br/><sub>Code lines</sub></td>
+<td align="center" width="20%"><strong>5,460</strong><br/><sub>Comments</sub></td>
+<td align="center" width="20%"><strong>934</strong><br/><sub>Source files</sub></td>
 <td align="center" width="20%"><strong>1</strong><br/><sub>Repository</sub></td>
-<td align="center" width="20%"><strong>12</strong><br/><sub>Languages</sub></td>
+<td align="center" width="20%"><strong>10</strong><br/><sub>Languages</sub></td>
 </tr>
 </table>
 
@@ -203,13 +203,13 @@ Monitoring and reliability
 <br/>
 <sub><code>app/</code></sub>
 <br/><br/>
-<strong>67,075</strong><br/>
+<strong>73,095</strong><br/>
 <sub>Code lines</sub>
 <br/>
-<strong>356</strong><br/>
+<strong>375</strong><br/>
 <sub>Source files</sub>
 <br/>
-<strong>45.4%</strong><br/>
+<strong>43.2%</strong><br/>
 <sub>Share of total</sub>
 </td>
 <td width="33%" align="center" valign="top">
@@ -217,13 +217,13 @@ Monitoring and reliability
 <br/>
 <sub><code>backend/</code></sub>
 <br/><br/>
-<strong>73,234</strong><br/>
+<strong>87,661</strong><br/>
 <sub>Code lines</sub>
 <br/>
-<strong>377</strong><br/>
+<strong>400</strong><br/>
 <sub>Source files</sub>
 <br/>
-<strong>49.6%</strong><br/>
+<strong>51.8%</strong><br/>
 <sub>Share of total</sub>
 </td>
 <td width="33%" align="center" valign="top">
@@ -231,13 +231,13 @@ Monitoring and reliability
 <br/>
 <sub><code>backend/prisma · deploy · observability</code></sub>
 <br/><br/>
-<strong>7,306</strong><br/>
+<strong>8,417</strong><br/>
 <sub>Code lines</sub>
 <br/>
-<strong>129</strong><br/>
+<strong>159</strong><br/>
 <sub>Source files</sub>
 <br/>
-<strong>4.9%</strong><br/>
+<strong>5.0%</strong><br/>
 <sub>Share of total</sub>
 </td>
 </tr>
@@ -248,28 +248,28 @@ Monitoring and reliability
 <table>
 <tr>
 <td width="130" align="left"><strong>TypeScript</strong></td>
-<td align="left">████████████████████░░░░░░░░░░░░░░░░</td>
-<td width="60" align="right"><strong>56.3%</strong></td>
+<td align="left">███████████████████░░░░░░░░░░░░░░░░░</td>
+<td width="60" align="right"><strong>53.7%</strong></td>
 </tr>
 <tr>
 <td width="130" align="left"><strong>Rust</strong></td>
-<td align="left">███████████░░░░░░░░░░░░░░░░░░░░░░░░░</td>
-<td width="60" align="right"><strong>31.5%</strong></td>
-</tr>
-<tr>
-<td width="130" align="left"><strong>Python</strong></td>
-<td align="left">█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</td>
-<td width="60" align="right"><strong>3.2%</strong></td>
-</tr>
-<tr>
-<td width="130" align="left"><strong>JavaScript</strong></td>
-<td align="left">█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</td>
-<td width="60" align="right"><strong>2.6%</strong></td>
+<td align="left">█████████████░░░░░░░░░░░░░░░░░░░░░░░</td>
+<td width="60" align="right"><strong>35.9%</strong></td>
 </tr>
 <tr>
 <td width="130" align="left"><strong>SQL</strong></td>
 <td align="left">█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</td>
+<td width="60" align="right"><strong>2.7%</strong></td>
+</tr>
+<tr>
+<td width="130" align="left"><strong>Python</strong></td>
+<td align="left">█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</td>
 <td width="60" align="right"><strong>2.5%</strong></td>
+</tr>
+<tr>
+<td width="130" align="left"><strong>JavaScript</strong></td>
+<td align="left">█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</td>
+<td width="60" align="right"><strong>1.8%</strong></td>
 </tr>
 </table>
 
@@ -290,18 +290,16 @@ Monitoring and reliability
 </tr>
 </thead>
 <tbody>
-<tr><td align="left">TypeScript</td><td align="right">527</td><td align="right">83,134</td><td align="right">56.3%</td></tr>
-<tr><td align="left">Rust</td><td align="right">100</td><td align="right">46,551</td><td align="right">31.5%</td></tr>
-<tr><td align="left">Python</td><td align="right">37</td><td align="right">4,675</td><td align="right">3.2%</td></tr>
-<tr><td align="left">JavaScript</td><td align="right">44</td><td align="right">3,822</td><td align="right">2.6%</td></tr>
-<tr><td align="left">SQL</td><td align="right">105</td><td align="right">3,661</td><td align="right">2.5%</td></tr>
-<tr><td align="left">Prisma Schema</td><td align="right">13</td><td align="right">2,203</td><td align="right">1.5%</td></tr>
-<tr><td align="left">HCL</td><td align="right">9</td><td align="right">1,385</td><td align="right">0.9%</td></tr>
-<tr><td align="left">Protocol Buffers</td><td align="right">11</td><td align="right">1,219</td><td align="right">0.8%</td></tr>
-<tr><td align="left">Bourne Shell</td><td align="right">6</td><td align="right">491</td><td align="right">0.3%</td></tr>
-<tr><td align="left">CSS</td><td align="right">2</td><td align="right">204</td><td align="right">0.1%</td></tr>
-<tr><td align="left">Dockerfile</td><td align="right">7</td><td align="right">182</td><td align="right">0.1%</td></tr>
-<tr><td align="left">HTML</td><td align="right">1</td><td align="right">88</td><td align="right">0.1%</td></tr>
+<tr><td align="left">TypeScript</td><td align="right">554</td><td align="right">90,769</td><td align="right">53.7%</td></tr>
+<tr><td align="left">Rust</td><td align="right">125</td><td align="right">60,768</td><td align="right">35.9%</td></tr>
+<tr><td align="left">SQL</td><td align="right">137</td><td align="right">4,641</td><td align="right">2.7%</td></tr>
+<tr><td align="left">Python</td><td align="right">31</td><td align="right">4,220</td><td align="right">2.5%</td></tr>
+<tr><td align="left">JavaScript</td><td align="right">37</td><td align="right">3,003</td><td align="right">1.8%</td></tr>
+<tr><td align="left">Prisma Schema</td><td align="right">14</td><td align="right">2,619</td><td align="right">1.5%</td></tr>
+<tr><td align="left">HCL</td><td align="right">9</td><td align="right">1,385</td><td align="right">0.8%</td></tr>
+<tr><td align="left">Protocol Buffers</td><td align="right">12</td><td align="right">980</td><td align="right">0.6%</td></tr>
+<tr><td align="left">Bourne Shell</td><td align="right">12</td><td align="right">525</td><td align="right">0.3%</td></tr>
+<tr><td align="left">Dockerfile</td><td align="right">3</td><td align="right">263</td><td align="right">0.2%</td></tr>
 </tbody>
 </table>
 
@@ -310,7 +308,7 @@ Monitoring and reliability
 <div align="center">
 
 <sub>
-Updated 09/08/2026 07:04 &nbsp;&nbsp; Generated with <code>cloc</code> &nbsp;&nbsp; Authored source only
+Updated 19/08/2026 01:09 &nbsp;&nbsp; Generated with <code>cloc</code> &nbsp;&nbsp; Authored source only
 </sub>
 
 </div>
